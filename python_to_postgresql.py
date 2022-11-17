@@ -26,6 +26,7 @@ try:
                             dept_id varchar(30))'''
 
     cur.execute(create_script)
+    conn.commit()
    
 except Exception as error:
     print(error)
