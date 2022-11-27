@@ -1,4 +1,4 @@
-import psycopg2 #import connection driver
+import psycopg2 #import connection driver #change
 
 hostname = 'localhost'
 database = 'DataBrains'
