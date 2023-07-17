@@ -48,3 +48,5 @@ finally:
     if conn is not None:
         conn.close()
 
+print("Completed")
+
